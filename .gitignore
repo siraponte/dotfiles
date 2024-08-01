@@ -1,0 +1,18 @@
+/*
+
+# General files
+!.bash_profile
+!.bashrc
+!.gitconfig
+!.gitignore
+!.zshrc
+
+# Files under config folder
+!.config/
+.config/*
+!.config/foot/
+!.config/htop/
+!.config/lf/
+!.config/nvim/
+!.config/sway/
+
