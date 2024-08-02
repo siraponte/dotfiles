@@ -14,5 +14,6 @@
 !.config/htop/
 !.config/lf/
 !.config/nvim/
+!.config/rofi/
 !.config/sway/
 
