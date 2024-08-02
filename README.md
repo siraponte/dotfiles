@@ -2,7 +2,7 @@
 
 ## Todo
 
-- Sway bar aesthetic + tray icons management + interactive commands on click
+- Sway bar tray icons management + interactive commands on click
 - NetworkManager applet on startup + Check VPN
 - Add programming languages config to neovim
 - Sharing for individual windows on wayland desktop portal
@@ -12,6 +12,8 @@
 ## Selected tools
 
 - Window manager (sway)
+- AUR helper (yay)
+- Shell (zsh)
 - Terminal (foot)
 - Editor (lazyvim)
 - Menu (rofi-wayland)
@@ -21,6 +23,11 @@
 - Image viewer (imv)
 - Video viewer (mpv)
 - Color picker (wl-color-picker)
+- Brightness (brightnessctl)
+- Network (NetworkManager + openfortivpn)
+- Bluetooth (bluetui + bluez)
+- Battery saver (auto-cpufreq + powertop)
+- Misc (ripgrep, upower, pavucontrol, pamixer, pipewire)
 
 ## Reminders
 
