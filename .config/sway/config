@@ -310,6 +310,12 @@ bindsym $mod+shift+d exec grim -o $(swaymsg -t get_outputs | jq -r '.[] | select
 bindsym $mod+shift+p exec wl-color-picker
 
 #
+# Video Player
+#
+
+bindsym $mod+shift+v exec kooha
+
+#
 # Include
 #
 
