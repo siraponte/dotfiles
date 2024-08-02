@@ -1,5 +1,15 @@
 # Dotfiles
 
+## Todo
+
+- Sway bar aesthetic + tray icons management + interactive commands on click
+- NetworkManager applet on startup + Check VPN
+- Add programming languages config to neovim
+- Sharing for individual windows on wayland desktop portal
+- Better launcher
+- Better clipboard manager
+- Tidy and review files
+
 ## Reminders
 
 - Nerdfont (JetBrains Mono)
