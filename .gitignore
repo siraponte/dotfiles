@@ -13,6 +13,7 @@
 !.config/foot/
 !.config/htop/
 !.config/lf/
+!.config/lvim/
 !.config/nvim/
 !.config/rofi/
 !.config/sway/

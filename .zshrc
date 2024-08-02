@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 export PATH="$HOME/.local/bin:$PATH"
-export EDITOR="nvim"
+export EDITOR="lvim"
 
 #
 # LF
@@ -125,9 +125,10 @@ alias vt="nvim ~/.config/foot/foot.ini"
 alias suggest="gh copilot suggest -t shell"
 alias explain="gh copilot explain"
 alias lf="lf --command 'set hidden!'"
-alias n="nvim"
+alias n="lvim"
 alias activate="source ./venv/bin/activate"
 alias git-me="git config user.name siraponte; git config user.email 'ci.seraphh@gmail.com'"
+alias git-work="git config user.name 'Ciro Seraponte'; git config user.email 'ciro.seraponte@ko2.it'"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
