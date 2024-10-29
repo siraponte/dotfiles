@@ -2,13 +2,7 @@
 
 ## Todo
 
-- Swaybar tray icons management + interactive commands on click
-- Theme configuration and switch
-- TIM vpn commands and swaybar change
-- Add programming languages config to neovim
 - Sharing for individual windows on wayland desktop portal
-- Better clipboard manager
-- Tidy and review files
 
 ## Selected tools
 
@@ -16,13 +10,15 @@
 - AUR helper (yay)
 - Shell (zsh)
 - Terminal (foot)
-- Editor (nvim)
+- Editors (nvim + vscode + cursor)
 - Menu (rofi-wayland)
 - Clipboard manager (copyq + wl-clipboard)
 - Screenshot (grim + slurp)
 - Screenrecord (kooha)
+- File viewer (zathura)
 - Image viewer (imv)
 - Video viewer (mpv)
+- Office (Libre)
 - Color picker (wl-color-picker)
 - Brightness (brightnessctl)
 - Network (NetworkManager + openfortivpn)
@@ -34,7 +30,5 @@
 
 - Nerdfont (JetBrains Mono)
 - Update compose plugin manually
-- 1Password ssh agent toml (~/.config/1Password/ssh/agent.toml)
-- Add specific teams script with custom user dir
 - Configure lid options (/etc/systemd/logind.conf - /etc/systemd/sleep.conf)
 
