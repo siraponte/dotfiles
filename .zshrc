@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 export PATH="$HOME/.local/bin:$PATH"
-export EDITOR="lvim"
+export EDITOR="nvim"
 
 #
 # LF
@@ -125,10 +125,49 @@ alias vt="nvim ~/.config/foot/foot.ini"
 alias suggest="gh copilot suggest -t shell"
 alias explain="gh copilot explain"
 alias lf="lf --command 'set hidden!'"
-alias n="lvim"
+alias n="nvim"
 alias activate="source ./venv/bin/activate"
 alias git-me="git config user.name siraponte; git config user.email 'ci.seraphh@gmail.com'"
 alias git-work="git config user.name 'Ciro Seraponte'; git config user.email 'ciro.seraponte@ko2.it'"
+alias ko2vpnon="nmcli connection up ko2 --ask"
+alias ko2vpnoff="nmcli connection down ko2"
+alias vpnon="nordvpn connect italy"
+alias vpnoff="nordvpn disconnect"
+
+alias w="watch "
+alias k="kubectl"
+alias h="helm"
+
+complete -F __start_kubectl k
+
+#
+# Functions
+#
+
+# Change Samsung external monitor source
+extsrc() {
+    case $1 in
+        1|2)
+            source=$((4 + $1))
+            ddcutil -b 0 setvcp 60 0x0$source --noverify
+            echo "Source switched to HDMI-$1"
+            ;;
+        *)
+            echo "Error: Please provide a valid source value (1 or 2)."
+            return 1
+            ;;
+    esac
+}
+
+#
+# Go
+#
+
+export PATH="/home/siraponte/go/bin:$PATH"
+
+#
+# NVM
+#
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

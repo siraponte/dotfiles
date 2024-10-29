@@ -2,8 +2,9 @@
 
 ## Todo
 
-- Sway bar tray icons management + interactive commands on click
-- NetworkManager applet on startup + Check VPN
+- Swaybar tray icons management + interactive commands on click
+- Theme configuration and switch
+- TIM vpn commands and swaybar change
 - Add programming languages config to neovim
 - Sharing for individual windows on wayland desktop portal
 - Better clipboard manager
@@ -15,7 +16,7 @@
 - AUR helper (yay)
 - Shell (zsh)
 - Terminal (foot)
-- Editor (lazyvim)
+- Editor (nvim)
 - Menu (rofi-wayland)
 - Clipboard manager (copyq + wl-clipboard)
 - Screenshot (grim + slurp)

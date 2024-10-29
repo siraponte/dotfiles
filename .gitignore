@@ -6,10 +6,17 @@
 !.gitconfig
 !.gitignore
 !.zshrc
+!.dmrc
+!.gdbinit
+!README.md
+!.tmux.conf
+
 
 # Files under config folder
 !.config/
 .config/*
+!.config/copyq/
+!.config/gh-copilot/
 !.config/foot/
 !.config/htop/
 !.config/lf/
@@ -17,4 +24,10 @@
 !.config/nvim/
 !.config/rofi/
 !.config/sway/
+
+# 1Password
+!.1password/agent.sock
+
+# Local bin
+!.local/bin/
 
