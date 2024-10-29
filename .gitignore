@@ -11,7 +11,6 @@
 !README.md
 !.tmux.conf
 
-
 # Files under config folder
 !.config/
 .config/*
@@ -20,10 +19,11 @@
 !.config/foot/
 !.config/htop/
 !.config/lf/
-!.config/lvim/
 !.config/nvim/
 !.config/rofi/
 !.config/sway/
+!.config/systemd
+!.config/pavucontrol.ini
 
 # 1Password
 !.1password/agent.sock
