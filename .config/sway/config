@@ -270,8 +270,8 @@ exec copyq
 # Function keys
 #
 
-bindsym Shift+XF86MonBrightnessUp  exec extbri 100
-bindsym Shift+XF86MonBrightnessDown  exec extbri 0
+bindsym Shift+XF86MonBrightnessUp  exec ddcutil -b 0 setvcp 10 100 --noverify 
+bindsym Shift+XF86MonBrightnessDown  exec ddcutil -b 0 setvcp 10 0 --noverify
 
 bindsym XF86AudioMute exec pamixer -t
 bindsym XF86AudioRaiseVolume exec pamixer -i 5

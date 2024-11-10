@@ -15,9 +15,13 @@
 !.config/
 .config/*
 !.config/copyq/
+.config/copyq/*.lock
+.config/copyq/*.rmlock
+.config/copyq/*.dat
 !.config/gh-copilot/
 !.config/foot/
 !.config/htop/
+!.config/kwalletrc
 !.config/lf/
 !.config/nvim/
 !.config/rofi/
