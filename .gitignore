@@ -14,10 +14,8 @@
 # Files under config folder
 !.config/
 .config/*
-!.config/copyq/
-.config/copyq/*.lock
-.config/copyq/*.rmlock
-.config/copyq/*.dat
+!.config/copyq/copyq.conf
+!.config/copyq/themes/
 !.config/gh-copilot/
 !.config/foot/
 !.config/htop/
